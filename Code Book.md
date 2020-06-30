@@ -1,9 +1,3 @@
-# DataCleaningProject
-This project includes my R script submission for the final project of the Coursera Getting and Cleaning Data course
-
-## Project description
-The goal of this project is to clean the "Human Activity Recognition Using Smartphones Data Set" from the UCI Machine Learning Repository. The script provides two files: a file (referred as raw in subsequent discussions) including all columns containing mean and standard deviation values of the reported measurements for each activity and user and another file (referred as clean in subsequent discussions) grouping the mean value for each of the columns of the raw dataset by subject and activity.
-
 ## Code book
 The data set contains 88 column with some of the columns containing the mean (referred as mean()) or standard deviation (referred as std()) of a measurement across 3 dimensions (referred as X, Y, and Z). Some measurements include time-domain data (referred with the prefix t) or frequency-domain data (referred with the prefix f). For example, the column tBodyAcc-mean()-Y includes the mean of the time-domain body acceleration data along the Y-axis
 * **Subject:** Subject ID. The data set includes data for 30 volunteers labeled 1-30	
